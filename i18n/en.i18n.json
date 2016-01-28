@@ -1,0 +1,11 @@
+{
+    "topic": "Topic",
+	"title": "Title",
+	"speaker": "speaker",
+	"date": "Date",
+	"time": "Time",
+	"where": "Location",
+	"welcome": "Welcome",
+	"please_login": "Please login",
+	"event_page_title": "Organization Management Page"
+}

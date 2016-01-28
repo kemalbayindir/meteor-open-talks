@@ -1,0 +1,33 @@
+<template name="eventList">
+
+	<div class="table-responsive">
+		<table class="tblList table table-bordered">
+			<thead>
+				<tr>
+			  		<th>{{_ "topic"}}</th>
+			  		<th>{{_ "title"}}</th>
+			  		<th>{{_ "speaker"}}</th>
+			  		<th>{{_ "date"}}</th>
+			  		<th>{{_ "time"}}</th>
+			  		<th>{{_ "where"}}</th>
+			  		<th colspan="2">&nbsp;</th>
+			  	</tr>
+		  	</thead>
+		  	<tbody>
+			  {{#each events}}
+			  	<tr>
+			  		<td>{{getTopicById(topic)}}</td>
+			  		<td>{{title}}</td>
+			  		<td>{{speaker}}</td>
+			  		<td>{{date}}</td>
+			  		<td>{{time}}</td>
+			  		<td>{{where}}</td>
+			  		<td><a class="btnDelete"><i class="fa fa-trash fa-2x"></i></a></td>
+			  		<td><a class="btnEdit" href="/event/{{_id}}"><i class="fa fa-edit fa-2x"></i></a></td>
+			  	</tr>
+			  {{/each}}
+		  	</tbody>
+		</table>
+	</div>
+
+</template>

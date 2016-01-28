@@ -1,0 +1,11 @@
+{
+    "topic": "Konu",
+	"title": "Başlık",
+	"speaker": "Konuşmacı",
+	"date": "Tarih",
+	"time": "Zaman",
+	"where": "Lokasyon",
+	"welcome": "Hoşgeldiniz",
+	"please_login": "Lütfen giriş yapınız",
+	"event_page_title": "Organizasyon Yönetimi Sayfası"
+}
